@@ -4,9 +4,12 @@
 
 ; RUN CONTROL
 ;----------------------------------------------------
+define       = -DPOSRE_backbone_atoms
 integrator   = sd            ; stochastic leap-frog integrator
-nsteps       = 250000         ; 0.2 * 2,500,00 ps = 0.5 ns
-dt           = 0.0002         ; 0.2 ps
+nsteps       = 2500000       ; 2 * 2,500,000 fs = 5 ns
+;dt           = 0.002         ; 2 fs
+dt           = 0.001         ; 1 fs
+
 comm-mode    = Linear        ; remove center of mass translation
 nstcomm      = 100           ; frequency for center of mass motion removal
 
