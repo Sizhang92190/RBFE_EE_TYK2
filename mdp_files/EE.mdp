@@ -31,7 +31,6 @@ ns_type                  = grid     ; Make a grid in the box and only check atom
 pbc                      = xyz      ; use periodic boundary conditions in all directions.
 rlist                    = 0.9      ; NOTE: 0.9nm (default: 1nm) 
                                     ; cut-off distance for the short-range neighbor list
-domain-decomposition     = no   ; added by Si Zhang
 
 ; Electrostatics
 coulombtype              = PME
