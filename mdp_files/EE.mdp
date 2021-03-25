@@ -1,7 +1,7 @@
 
 ; mdp for expanded ensemble simulation
 
-define                   = -DPOSRES_backbone_atoms  ;adding backbone restraints
+;;;define                   = -DPOSRES_backbone_atoms  ;adding backbone restraints
 integrator               = md-vv    ; Can only use expanded ensemble with md-vv, NOT sd(Langevin dynamics)
 tinit                    = 0
 ;dt                       = 0.002    ; NOTE: default: 0.002ps (2fs) per time step

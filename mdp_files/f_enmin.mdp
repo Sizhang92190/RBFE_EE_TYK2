@@ -4,7 +4,6 @@
 
 ; RUN CONTROL & MINIMIZATION
 ;----------------------------------------------------
-define                 = -DPOSRE_backbone_atoms   ;    -DFLEXIBLE
 integrator             = steep
 nsteps                 = 50000
 emtol                  = 10

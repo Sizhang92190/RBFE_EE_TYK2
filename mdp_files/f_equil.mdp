@@ -4,7 +4,6 @@
 
 ; RUN CONTROL
 ;----------------------------------------------------
-define       = -DPOSRE_backbone_atoms
 integrator   = sd            ; stochastic leap-frog integrator
 nsteps       = 2500000       ; 2 * 2,500,000 fs = 5 ns
 ;dt           = 0.002         ; 2 fs
